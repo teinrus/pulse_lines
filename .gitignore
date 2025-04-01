@@ -1,0 +1,34 @@
+
+bash
+Копировать
+Редактировать
+# Виртуальное окружение
+venv/
+env/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Конфиденциальные и временные файлы
+*.env
+*.sqlite3
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Файлы Jupyter
+.ipynb_checkpoints/
+
+# Компиляция C-расширений
+*.so
+
+# Файлы ОС
+.DS_Store
+Thumbs.db
+
+# Статика Django (если используется)
+staticfiles/
